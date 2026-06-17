@@ -1,0 +1,131 @@
+{
+    "languageName": "日本語",
+    "app": {
+        "name": "歌詞スクロールちゃん",
+        "fullname": "あかりの歌詞スクロールちゃん"
+    },
+    "header": {
+        "home": "ホームページ",
+        "editor": "編集",
+        "synchronizer": "同期",
+        "gist": "Github Gist",
+        "preferences": "設定"
+    },
+    "audio": {
+        "loadAudio": "オーディオファイルを読み込む",
+        "play": "再生",
+        "pause": "停止",
+        "replay5s": "5秒戻る",
+        "forward5s": "5秒進む",
+        "resetRate": "再生速度をリセット",
+        "error": [
+            "オーディオエラー",
+            "オーディオダウンロードエラー",
+            "オーディオネットワークエラー",
+            "オーディオデコードエラー",
+            "ブラウザでサポートされていないオーディオ"
+        ]
+    },
+    "loadAudio": {
+        "file": "ファイル",
+        "url": "URL",
+        "loadFile": "ここをクリックするか、このページにオーディオファイルをドロップしてください"
+    },
+    "home": {
+        "tips": "プロンプト",
+        "tipForLyricText": "編集ページに切り替えて歌詞のテキストを貼り付けます。",
+        "tipForUploadAudio": "左下のボタンをクリックしてオーディオファイルをロードします。",
+        "tipForSynchronizer": "同期ページに切り替えてスクロール歌詞を作り始めます〜",
+        "tipTopLeft": "このヘルプページに戻るにはここをクリック",
+        "tipTopRight": "ページを切り替えるにはここをクリック",
+        "tipBottomLeft": "ここでオーディオをロードして再生を制御できます。",
+        "tipBottomRight": "ここでは再生速度を変更できます"
+    },
+    "editor": {
+        "metaInfo": "メタ情報",
+        "album": "アルバム",
+        "title": "曲名",
+        "artist": "アーティスト名",
+        "uploadText": "テキストを読み込む",
+        "copyText": "すべて選択してコピー",
+        "downloadText": "ダウンロード",
+        "saveToGist": "Github Gistに保存",
+        "saveFileName": "ファイル名",
+        "utils": "lrc utils"
+    },
+    "gist": {
+        "newTokenTip": "歌詞スクロールちゃんはGithub Gistにデータを取得して保存するためにGithubトークンを使用します",
+        "newTokenButton": "新しいGithubトークンを生成する",
+        "newGistTip": "新しいGistリポジトリを作成するか、既存のGist IDを割り当てます",
+        "newGistRepoButton": "新しいGistリポジトリを作成する",
+        "gistIdPlaceholder": "または既存のGist IDを割り当てる",
+        "info": "情報",
+        "clearTokenAndGist": "クリアトークンとGIST ID"
+    },
+    "preferences": {
+        "version": "バージョン",
+        "commitHash": "Commit hash",
+        "updateTime": "更新時間",
+        "repo": "プロジェクトURL",
+        "help": "について＆ヘルプ",
+        "language": "言語(language)",
+        "builtInAudio": "ブラウザ内蔵のオーディオプレーヤーを使用する",
+        "spaceButton": "画面上のスペースキー",
+        "showWaveform": "音声波形を表示する",
+        "themeColor": "テーマカラー",
+        "lrcFormat": "歌詞出力フォーマット制御",
+        "fixed": "タイムスタンプ小数点",
+        "leftSpace": "左側のスペース",
+        "rightSpace": "右側スペース",
+        "stepSeconds": "ステップ秒数(ms)",
+        "efficiencyMode": "効率モード",
+        "allowBackgroundAudio": "バックグラウンドでの音声再生を許可",
+        "fineTuneOffset": "微調整オフセット(ms)",
+        "clearCache": "キャッシュをクリア",
+        "themeMode": {
+            "label": "テーマモード",
+            "auto": "自動",
+            "light": "ライト",
+            "dark": "ダーク"
+        }
+    },
+    "notify": {
+        "audioLoaded": "オーディオがロードされました",
+        "updateAvailable": "新しいバージョンが利用可能です。ページを更新して変更を適用してください。"
+    },
+    "keybindings": {
+        "title": "キーバインド設定",
+        "resetToDefaults": "デフォルトに戻す",
+        "save": "保存",
+        "record": "録音",
+        "recording": "録音中...",
+        "noBinding": "バインドなし",
+        "saveSuccess": "キーバインドが保存されました！",
+        "resetSuccess": "デフォルトのキーバインドに戻りました。変更を適用するには「保存」をクリックしてください。",
+        "conflictError": "保存できません: %d個のキーバインドの競合が見つかりました。競合を解決してから再試行してください。",
+        "action": "アクション",
+        "description": "説明",
+        "currentBinding": "現在のバインド",
+        "removeBinding": "バインドを削除",
+        "actions": {
+            "sync": "タイムスタンプを追加/更新",
+            "deleteTime": "タイムスタンプを削除",
+            "resetOffset": "オフセットをリセット",
+            "decreaseOffset": "オフセットを減らす",
+            "increaseOffset": "オフセットを増やす",
+            "prevLine": "前の行",
+            "nextLine": "次の行",
+            "firstLine": "最初の行",
+            "lastLine": "最後の行",
+            "pageUp": "ページアップ",
+            "pageDown": "ページダウン",
+            "seekBackward": "オーディオを後戻し",
+            "seekForward": "オーディオを早送り",
+            "resetRate": "再生速度をリセット",
+            "increaseRate": "再生速度を上げる",
+            "decreaseRate": "再生速度を下げる",
+            "togglePlay": "再生/一時停止を切り替え",
+            "showHelp": "ヘルプを表示"
+        }
+    }
+}

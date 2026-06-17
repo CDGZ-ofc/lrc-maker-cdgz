@@ -1,0 +1,131 @@
+{
+    "languageName": "Português",
+    "app": {
+        "name": "Criador de LRC",
+        "fullname": "Criador de LRC de Akari"
+    },
+    "header": {
+        "home": "início",
+        "editor": "editor",
+        "synchronizer": "sincronizador",
+        "gist": "Github Gist",
+        "preferences": "preferências"
+    },
+    "audio": {
+        "loadAudio": "carregar áudio",
+        "play": "play",
+        "pause": "pausar",
+        "replay5s": "repetir 5s",
+        "forward5s": "avançar 5s",
+        "resetRate": "redefinir a taxa de reprodução",
+        "error": [
+            "erro de áudio",
+            "áudio abortado pelo usuário",
+            "erro de rede de áudio",
+            "erro de decodificação de áudio",
+            "áudio não suportado"
+        ]
+    },
+    "loadAudio": {
+        "file": "Arquivo",
+        "url": "URL",
+        "loadFile": "Clique aqui ou solte um arquivo de áudio nesta página"
+    },
+    "home": {
+        "tips": "Dicas",
+        "tipForLyricText": "Navegue até a página do editor e cole o texto da letra.",
+        "tipForUploadAudio": "Clique no botão inferior esquerdo para carregar o arquivo de áudio.",
+        "tipForSynchronizer": "Navegue até a página do sincronizador e faça seu lrc :)",
+        "tipTopLeft": "Clique aqui para voltar a esta página",
+        "tipTopRight": "Clique aqui para navegar para outra página",
+        "tipBottomLeft": "carregue o áudio aqui e controle o áudio",
+        "tipBottomRight": "altere a taxa de reprodução aqui"
+    },
+    "editor": {
+        "metaInfo": "informações meta",
+        "album": "álbum",
+        "title": "título",
+        "artist": "artista",
+        "uploadText": "enviar texto",
+        "copyText": "selecione tudo e copie",
+        "downloadText": "baixar",
+        "saveToGist": "salvar no Github Gist",
+        "saveFileName": "Nome do arquivo",
+        "utils": "lrc utils"
+    },
+    "gist": {
+        "newTokenTip": "o Criador de LRC usa o Token do Github para recolher e armazenar dados para o Github Gist",
+        "newTokenButton": "Gerar um novo Token do Github",
+        "newGistTip": "Criar um novo repositório Gist ou atribuir um id Gist existente",
+        "newGistRepoButton": "Criar um novo Repositório Gist",
+        "gistIdPlaceholder": "Ou atribuir um id Gist existente",
+        "info": "informação",
+        "clearTokenAndGist": "Limpar Token e id Gist"
+    },
+    "preferences": {
+        "version": "Versão",
+        "commitHash": "Commit hash",
+        "updateTime": "Tempo de atualização",
+        "repo": "Repositório",
+        "help": "Ajuda e dicas",
+        "language": "Linguagem",
+        "builtInAudio": "Use o player de áudio integrado do navegador",
+        "spaceButton": "Tecla de espaço na tela",
+        "showWaveform": "Mostrar forma de onda de áudio",
+        "themeColor": "Cor do tema",
+        "lrcFormat": "Ajuste de formato LRC",
+        "fixed": "Data-de-tempo fixo",
+        "leftSpace": "Espaço esquerdo",
+        "rightSpace": "Espaço direito",
+        "stepSeconds": "Passo em segundos (ms)",
+        "efficiencyMode": "Modo de Eficiência",
+        "allowBackgroundAudio": "Permitir reprodução de áudio em segundo plano",
+        "fineTuneOffset": "Ajuste fino de deslocamento (ms)",
+        "clearCache": "Limpar cache",
+        "themeMode": {
+            "label": "Modo de tema",
+            "auto": "auto",
+            "light": "claro",
+            "dark": "escuro"
+        }
+    },
+    "notify": {
+        "audioLoaded": "Áudio carregado",
+        "updateAvailable": "Nova versão disponível. Atualize a página para aplicar as alterações."
+    },
+    "keybindings": {
+        "title": "Atalhos de Teclado",
+        "resetToDefaults": "Redefinir Padrões",
+        "save": "Salvar",
+        "record": "Gravar",
+        "recording": "Gravando...",
+        "noBinding": "Sem Atalho",
+        "saveSuccess": "Atalhos de teclado salvos!",
+        "resetSuccess": "Atalhos de teclado padrão restaurados. Clique em 'Salvar' para aplicar as alterações.",
+        "conflictError": "Não é possível salvar: Encontrados %d conflitos de atalhos de teclado. Resolva os conflitos e tente novamente.",
+        "action": "Ação",
+        "description": "Descrição",
+        "currentBinding": "Atalho Atual",
+        "removeBinding": "Remover Atalho",
+        "actions": {
+            "sync": "Adicionar/Atualizar Carimbo de Tempo",
+            "deleteTime": "Excluir Carimbo de Tempo",
+            "resetOffset": "Redefinir Deslocamento",
+            "decreaseOffset": "Diminuir Deslocamento",
+            "increaseOffset": "Aumentar Deslocamento",
+            "prevLine": "Linha Anterior",
+            "nextLine": "Próxima Linha",
+            "firstLine": "Primeira Linha",
+            "lastLine": "Última Linha",
+            "pageUp": "Página para Cima",
+            "pageDown": "Página para Baixo",
+            "seekBackward": "Retroceder Áudio",
+            "seekForward": "Avançar Áudio",
+            "resetRate": "Redefinir Velocidade de Reprodução",
+            "increaseRate": "Aumentar Velocidade de Reprodução",
+            "decreaseRate": "Diminuir Velocidade de Reprodução",
+            "togglePlay": "Alternar Reprodução/Pausa",
+            "showHelp": "Mostrar Ajuda"
+        }
+    }
+}
