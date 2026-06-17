@@ -3,6 +3,7 @@
         <img src="./public/favicons/apple-touch-icon.png" alt="logo" />
     </a>
 </p>
+
 ## 概要
 
 **歌词滚动姬提效版** 是在原版 [LRC-Maker](https://github.com/magic-akari/lrc-maker) 基础上的深度进化版本。保留了原版轻量、跨平台、纯前端运行的特性，并针对专业用户和高频使用者增加了一系列增强功能。
@@ -19,7 +20,7 @@
 ### 3. 外部参数快捷导入与音乐平台支持
 
 - **URL 参数导入**: 支持通过 `?url=音频链接` 快捷加载音频（支持网易云音乐歌曲ID以及音频URL自动解析）。
-  - 示例：[`https://d.cdgzofc.cn/?url=2082125990`](https://d.cdgzofc.cn/?url=2082125990)
+  - 示例：[https://d.cdgzofc.cn/?url=2082125990](https://d.cdgzofc.cn/?url=2082125990)
 - **Text 参数导入**: 支持通过 `?text=文本链接` 快捷导入外部文本。
 
 ### 4. 增强的偏好设置
