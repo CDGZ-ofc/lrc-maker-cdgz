@@ -104,7 +104,7 @@ pnpm run build
 `build/` 目录为纯静态文件，可部署至以下平台：
 
 - **Vercel**：导入仓库后，将构建命令设为 `pnpm run build`，输出目录设为 `build`
-- **GitHub Pages**：可通过 GitHub Actions 自动部署（见下方 CI/CD）
+- **GitHub Pages**：通过 GitHub Actions 自动部署
 - **Netlify**：导入仓库后，构建命令设为 `pnpm run build`，发布目录设为 `build`
 - **其他静态托管**：将 `build/` 目录内容上传至任意静态文件服务器即可
 
