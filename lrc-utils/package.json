@@ -1,0 +1,20 @@
+{
+    "name": "lrc-utils",
+    "version": "0.2.1-cdgz",
+    "description": "lrc-utils for lrc-maker",
+    "repository": "https://github.com/CDGZ-ofc/lrc-maker-cdgz.git",
+    "author": "CDGZ-ofc",
+    "license": "MIT",
+    "scripts": {
+        "start": "tsc -b -w",
+        "build": "tsc -b",
+        "postbuild": "copy src\\*.html build\\ && copy src\\*.css build\\"
+    },
+    "packageManager": "pnpm@8.8.0",
+    "dependencies": {
+        "@lrc-maker/lrc-parser": "^0.1.17"
+    },
+    "devDependencies": {
+        "typescript": "^5.0.0"
+    }
+}

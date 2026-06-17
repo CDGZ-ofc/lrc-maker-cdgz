@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es2019",
+        "module": "esnext",
+        "lib": ["dom", "es2019"],
+        "outDir": "./build",
+        "rootDir": "./src",
+        "removeComments": true,
+        "downlevelIteration": true,
+        "strict": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "incremental": true,
+        "tsBuildInfoFile": "./build/lrc-utils.tsbuildinfo"
+    },
+    "include": ["src"],
+    "exclude": ["src/lrc-parser"],
+    "references": [{ "path": "./src/lrc-parser.js" }]
+}
