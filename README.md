@@ -112,7 +112,7 @@ pnpm run build
 
 本项目基于以下两个 MIT 协议开源项目修改与融合：
 
-- [LRC-Maker](https://github.com/magic-akari/lrc-maker) — 原始歌词制作工具
-- [lrc-utils](https://github.com/magic-akari/lrc-utils) — 歌词处理工具集
+- [LRC-Maker](https://github.com/magic-akari/lrc-maker) — 原版的LRC-Maker
+- [lrc-utils](https://github.com/magic-akari/lrc-utils) — 歌词工具
 
 均以 [MIT License](https://opensource.org/licenses/MIT) 授权，本项目继承相同协议继续开源。
