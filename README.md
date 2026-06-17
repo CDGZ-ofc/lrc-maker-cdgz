@@ -64,19 +64,6 @@ pnpm install
 pnpm start
 ```
 
-### 代码检查
-
-```bash
-# 格式化检查
-pnpm run check:fmt
-
-# 自动修复格式问题
-pnpm run fix:fmt
-
-# 静态检查
-pnpm run check:lint
-```
-
 ## 构建与部署
 
 ### 构建生产版本
